@@ -1,0 +1,505 @@
+@charset"utf-8";
+*{
+	margin:0px auto;
+	padding: 0px auto;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+p,ul li,h3,h4{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue',sans-serif;
+}
+body{
+    margin: 0;
+}
+:root {
+    --main-color: white;
+    --p-color:black;
+    --h2-color:#373737;
+}
+header{
+   background-image: url(images/slide-02.jpg);
+   background-size:100% 100%;
+   border:1px solid black; 
+}
+header h1{
+    text-align: center;
+    margin-top:50% ;
+    color: var(--main-color);
+}
+header p{
+    color: var(--main-color);
+    text-align: center;
+    font-size: 0.90rem;
+    letter-spacing:2px;
+    margin-bottom: 65%;
+}
+.image img{
+    width:120px;
+    padding: 15px;
+}
+.menue{
+    display: none;
+}
+.hamburger{
+    float: right;
+    margin-top:-22%;
+    padding: 5px;
+}
+.hamburger img{
+    width: 40px;
+    height:40px;
+}
+
+#coffee_shop h2,#our_coffees h2,#our_services h2,#our_team h2,#aboutus h2{
+    text-align: center;
+    font-size: 2.20rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-top: 15%;
+    color: var(--h2-color);
+}
+#coffee_shop .subp,#our_coffees p,#our_services #osp,#our_team #otp,#aboutus #aup{
+    text-align: center;
+    letter-spacing:5px;
+    line-height: 25px;
+    font-size: 0.80rem;
+    padding:15px;
+    color: var(--h2-color);
+}
+#coffee_shop div img,#our_coffees img{
+    width: 90%;
+    margin:10% 0 0 5%;
+}
+#coffee_shop div img:hover{
+    box-shadow: 2px 2px 4px #000;
+}
+#our_coffees img:hover{
+    transition: 1s;
+    transform: scale(1.1);
+   
+}
+#coffee_shop div h3{
+    margin: 5px 0 0 20px;
+}
+#coffee_shop div p,.contact_details #cdp{
+    margin: 10px 0 0 20px;
+    font-size: 0.90rem;
+    line-height: 25px;
+}
+#coffee_menu
+{
+    background-image: url(./images/menu_bg.jpg);
+    background-size: 100% 100%;
+    border: 1px solid black;
+    margin-top: 10%;;
+}
+#coffee_menu h2,#Our_Testimonials h2,#contactus h2{
+    text-align: center;
+    font-size: 2.20rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-top: 15%;
+    color: var(--main-color);
+}
+#coffee_menu #cmp,#Our_Testimonials #testp,#contactus #cup{
+    text-align: center;
+    letter-spacing:5px;
+    line-height: 25px;
+    font-size: 0.80rem;
+    padding:15px;
+    color: var(--main-color); 
+}
+.italian_coffee{
+    background-image: url(images/menu-1.jpg);
+    width: 90%;
+    background-size: 100% 100%;
+}
+.russian_cooffee{
+    background-image: url(images/menu-2.jpg);
+    width: 90%;
+    background-size: 100% 100%; 
+    margin-top:10%;
+}
+.american_coffee{
+    background-image: url(images/menu-3.jpg);
+    width: 90%;
+    background-size: 100% 100%;
+    margin-bottom: 20%;
+}
+.italian_coffee h4,.russian_cooffee h4,.american_coffee h4{
+    font-size: 1.10rem;
+    text-align: center;
+    padding: 20px;
+    color: var(--main-color);
+}
+.caffe_kahf img,.Cappuccino_kahp img,#Our_Testimonials img{
+    width: 25%;
+    border-radius: 50%;
+    margin: 10% 0 0 5%;
+}
+.caffe_kahf h3,.Cappuccino_kahp h3{
+    color: var(--main-color);
+    margin: -28% 0 0 35%;
+}
+.caffe_kahf p,.Cappuccino_kahp p,#Our_Testimonials #custp{
+    color: var(--main-color);
+    margin: 5% 0 0 35%;
+    font-size:0.80rem;
+}
+.caffe_kahf h4,.Cappuccino_kahp h4{
+   color:#c59d5f;
+   font-size:0.85rem;
+   margin: 2% 0 2% 35%;
+}
+#our_services,#aboutus{
+    background-image: url(images/bg-gray-in.jpg);
+    margin-top: 20%;
+    border:1px solid rgb(245, 245, 245);
+}
+.caffeamericanno_img,.coffeemilk_img,.icecoffee_img,.redtie_img{
+    background-color: #c59d5f;
+    border-radius: 50%;
+    width: 30%;
+    margin-top:10%;
+    margin-bottom: 10%;
+    text-align: center;
+} 
+.caffeamericanno_img:hover,.coffeemilk_img:hover,.icecoffee_img:hover,.redtie_img:hover{
+    background-color:var(--h2-color);
+}
+.caffeamericanno_img img,.coffeemilk_img img,.icecoffee_img img,.redtie_img img{
+    padding: 20px;
+}
+#our_services h3,#our_team div h3{
+    text-align: center;
+    margin:5% 0 5% 0;
+    font-size: 1.05rem;
+}
+#our_services #cap,#our_team div p{
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 25px;
+    margin-bottom: 10%;
+}
+#our_team div img{
+    width: 100%;
+}
+#our_team div img:hover
+{
+    filter: grayscale(1);
+    transition: 1s;
+}
+#aboutus #bigaup{
+    font-size: 0.85rem;
+    line-height: 25px;
+    padding: 10px;
+    color: grey;
+    margin-bottom: 20%;
+}
+
+#Our_Testimonials h4{
+    color: var(--main-color);
+    margin: -28% 0 0 35%;
+    font-size: 1.20rem;
+}
+#Our_Testimonials .cust4{
+    margin-bottom:30%;
+}
+#contactus{
+    border:1px solid black;
+    background-image: url(images/parallax.jpg);
+    color: var(--main-color);
+}
+.contact_details h3{
+    color:#c59d5f;
+    margin: 5% 0 10% 5%;
+}
+.contact_details ul
+{
+    margin: 5% 0 20% 0;
+}
+.contact_details ul li{
+    margin-top: 5%;
+    font-size:0.85rem;    
+}
+footer{
+    color: var(--main-color);
+    background-color: #101010;
+    border: 1px solid #101010;
+}
+footer p{
+    margin: 10% 0 10% 0;
+    font-size: 0.90rem;
+    text-align: center;
+    padding: 5px;
+}
+
+::marker{
+    color: #c59d5f;
+}
+footer ul li{
+    display: inline;
+}
+span{
+    color: #c59d5f;
+}
+@media only screen and (min-width:375px)
+ {
+    .hamburger{
+        padding:10px;
+    }
+    .caffeamericanno_img,.coffeemilk_img,.icecoffee_img,.redtie_img{
+     width: 25%;
+    }
+    footer ul{
+        margin-left: 20%;
+    }
+}
+@media only screen and (min-width:425px){
+    .hamburger{
+        padding:25px;
+      }
+}
+@media only screen and (min-width:768px){
+    .image img{
+        width:180px;
+    }
+    .hamburger img{
+        width: 50px;
+        height: 50px;
+    }
+    .hamburger{
+        margin-top:-16%;
+    }
+    header h1{
+        margin-top:12%;
+        font-size: 2.20rem;
+    }
+    header p{        
+        letter-spacing:2px;
+        margin-bottom: 22%;
+    }
+    #coffee_shop div{
+        width: 32%;
+        display: inline-block;
+        margin-left: 5px;
+    }
+    #coffee_shop h2,#our_coffees h2,#our_services h2,#our_team h2,#aboutus h2{
+        margin-top: 4%;
+    }
+    #coffee_menu h2,#Our_Testimonials h2,#contactus h2{
+        margin-top: 5%;
+    }
+    .italian_coffee h4,.russian_cooffee h4,.american_coffee h4{
+        padding: 35px;
+    }
+    .caffe_kahf img,.Cappuccino_kahp img{
+        width: 30%;
+       margin: 5% 0 0 5%;
+    }
+    .caffe_kahf h3,.Cappuccino_kahp h3{
+      margin: -28% 0 0 40%;
+    }
+    .caffe_kahf p,.Cappuccino_kahp p{
+        width: 60%;
+        margin: 2% 0 0 40%;
+    }
+    .caffe_kahf h4,.Cappuccino_kahp h4{
+       margin: 2% 0 0 40%;
+    }
+    #coffee_menu .caffe_kahf ,.Cappuccino_kahp{
+        display: inline-block;
+        width: 45%;
+        margin:5% 0 0 2%;     
+    }
+    .russian_cooffee{
+        margin-top: 5%;
+    }
+    .american_coffee{
+        margin-bottom:10%;
+    }
+    #our_coffees div img{
+        display: inline;
+        width: 19%;
+        margin:3% 0 0 0;
+    }
+    #our_services{
+        margin-top: 10%;
+    }
+    #our_services .caffeamericanno,.coffemilk,.icecoffee,.redtie{
+        width: 24%;
+        display: inline-block;
+    }
+    .caffeamericanno_img,.coffeemilk_img,.icecoffee_img,.redtie_img{
+        width: 45%;
+    } 
+    .caffeamericanno_img img,.coffeemilk_img img,.icecoffee_img img,.redtie_img img{
+        padding: 15px;
+    }
+    #our_team div{
+        width: 47%;
+        display: inline-block;
+        margin:0 0 0 2%;
+    }
+    #our_team div p{
+        margin-bottom:0;
+    }
+    #aboutus #bigaup{
+    margin-bottom: 5%;
+    }
+    #Our_Testimonials div{
+        display: inline-block;
+        width: 45%;
+        margin: 0 0 0 2%;
+    }
+    #Our_Testimonials .cust4{
+        margin-bottom:10%;
+    }
+    .contact_details h3{
+        margin: 0 0 2% 5%;
+    }
+    .contact_details #cdp{
+        margin: 0 0 0 5%;
+    }
+    .contact_details ul
+    {
+        margin: 5% 0 5% 0;
+    }
+    .contact_details ul li{
+        margin-top: 2%;
+    }
+    footer p{
+        margin: 2% 0 2% 0;
+    }
+    footer ul{
+        margin-left: 35%;
+    }  
+}
+@media only screen and (min-width:1024px){
+    .menue{
+        display:block;
+    }
+    .hamburger{
+        display: none;
+    }
+    .menue ul{
+        margin: -7% 0 0 25%;
+        font-size: 1.10rem;
+    }
+    .menue ul li {
+        display: inline;
+        margin: 0 0 0 3%;
+        color: white;
+    }
+    .menue ul li:hover{
+        color: #7e4f08;
+    }
+    header h1{
+        font-size: 3.20rem;
+        margin-top: 16%;
+    }
+    .italian_coffee,.russian_cooffee,.american_coffee{
+        width: 95%;
+    }
+    .italian_coffee h4,.russian_cooffee h4,.american_coffee h4{
+        padding:40px;
+    }
+    #our_coffees div img{
+        width: 19.6%;
+        margin:0;
+    }
+    .caffeamericanno_img img,.coffeemilk_img img,.icecoffee_img img,.redtie_img img{
+        padding: 25px;
+    }
+    #our_team div{
+        width: 24%;
+        margin:0;
+    }
+    #aboutus{
+        margin-top:10%;
+   }
+   footer ul{
+    margin-left: 40%;
+    } 
+}
+@media only screen and (min-width:1200px){
+    .image img{
+        width:200px;
+    }
+    .menue ul{
+        margin: -5% 0 0 31%;
+       
+        font-weight: bold;
+    }
+    .menue ul li{
+        margin: 0 0 0 4%;
+    }
+    header h1{
+        font-size: 3.30rem;
+    }
+    #coffee_shop div{
+        width: 25%;
+        margin-left:6%;
+    }
+    #coffee_menu{
+        margin-top: 5%;
+    }
+    .italian_coffee,.russian_cooffee,.american_coffee{
+        width: 80%;
+    }
+    .caffe_kahf img,.Cappuccino_kahp img{
+        width: 20%;
+       margin: -7% 0 0 20%;
+    }
+    .caffe_kahf h3,.Cappuccino_kahp h3{
+      margin: -20% 0 0 45%;
+    }
+    .caffe_kahf p,.Cappuccino_kahp p{
+        width: 45%;
+        margin: 2% 0 0 45%;
+    }
+    .caffe_kahf h4,.Cappuccino_kahp h4{
+       margin: 2% 0 0 45%;
+    }
+    .american_coffee{
+        margin-bottom:7%;
+    }
+    #our_coffees div img{
+        width: 19%;
+        margin-left:7px;
+    }
+    .caffeamericanno_img img,.coffeemilk_img img,.icecoffee_img img,.redtie_img img{
+        padding:40px 15px 40px 15px;
+    }
+    #Our_Testimonials #custp{
+        margin-bottom:7%;
+    }
+    #Our_Testimonials img{
+        width: 20%;
+        margin:  4% 0 10% 10%;
+    }
+    #Our_Testimonials .cust4{
+        margin-bottom:5%;
+    }
+    .contact_details h3{
+        font-size: 1.30rem;
+    }
+     .contact_details #cdp{
+        font-size: 1rem;
+    }
+    .contact_details ul
+    {
+        margin: 0 0 5% 5%;
+    }
+    .contact_details ul li{
+        font-size:0.95rem;    
+    }   
+    footer p{
+        margin: 2% 0 0 0;
+    }
+    footer ul{
+        margin-left: 40%;
+    }
+    
+}
